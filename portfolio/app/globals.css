@@ -17,7 +17,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Vertical text utility */
+/* Vertical text — reads top-to-bottom on the right side of the hero */
 .writing-vertical {
   writing-mode: vertical-rl;
   text-orientation: mixed;
