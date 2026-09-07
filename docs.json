@@ -30,7 +30,6 @@
           {
             "tab": "Guides",
             "pages": [
-              "aashif/windsurf",
               {
                 "group": "Getting started",
                 "pages": [
@@ -55,6 +54,7 @@
                   "essentials/reusable-snippets"
                 ]
               },
+              "ai-tools/windsurf",
               {
                 "group": "AI tools",
                 "pages": [
