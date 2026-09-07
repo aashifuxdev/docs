@@ -29,7 +29,8 @@
         "tabs": [
           {
             "tab": "Guides",
-            "groups": [
+            "pages": [
+              "ai-tools/windsurf",
               {
                 "group": "Getting started",
                 "pages": [
@@ -58,8 +59,7 @@
                 "group": "AI tools",
                 "pages": [
                   "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
+                  "ai-tools/claude-code"
                 ]
               }
             ]
