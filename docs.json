@@ -30,6 +30,20 @@
           "ai-tools/cursor",
           "",
           ""
+        ],
+        "tabs": [
+          {
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "AI tools",
+                "pages": [
+                  "ai-tools/claude-code",
+                  "ai-tools/windsurf"
+                ]
+              }
+            ]
+          }
         ]
       }
     ]
