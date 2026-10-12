@@ -34,15 +34,16 @@
                 "group": "Getting started",
                 "pages": [
                   "index",
-                  "development",
-                  "quickstart"
+                  "untitled-page-2",
+                  "development"
                 ]
               },
               {
                 "group": "Customization",
                 "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
+                  "essentials/settings-2",
+                  "essentials/navigation",
+                  "quickstart"
                 ]
               },
               {
@@ -124,5 +125,13 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   },
-  "description": "Added seo description."
+  "description": "Added seo description.",
+  "seo": {
+    "metatags": {
+      "tag1": "1"
+    }
+  },
+  "variables": {
+    "Bold": "**bold**"
+  }
 }
