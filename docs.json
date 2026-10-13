@@ -9,82 +9,16 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
-        },
-        {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
-        }
-      ]
-    },
-    "dropdowns": [
+    "anchors": [
       {
-        "dropdown": "Untitled Dropdown",
-        "tabs": [
-          {
-            "tab": "Guides",
-            "pages": [
-              {
-                "group": "Getting started",
-                "pages": [
-                  "index",
-                  "development",
-                  "quickstart"
-                ]
-              },
-              {
-                "group": "Customization",
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Writing content",
-                "pages": [
-                  "essentials/markdown",
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/reusable-snippets"
-                ]
-              },
-              {
-                "group": "AI tools",
-                "pages": [
-                  "ai-tools/cursor",
-                  "ai-tools/windsurf",
-                  "ai-tools/claude-code"
-                ]
-              }
-            ]
-          },
-          {
-            "tab": "API reference",
-            "groups": [
-              {
-                "group": "API documentation",
-                "pages": [
-                  "api-reference/introduction"
-                ]
-              },
-              {
-                "group": "Endpoint examples",
-                "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/webhook"
-                ]
-              }
-            ]
-          }
-        ]
+        "anchor": "Documentation",
+        "icon": "book-open-cover",
+        "href": "https://mintlify.com/docs"
+      },
+      {
+        "anchor": "Blog",
+        "icon": "newspaper",
+        "href": "https://mintlify.com/blog"
       }
     ]
   },
@@ -124,5 +58,13 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   },
-  "description": "Added seo description."
+  "description": "Added seo description.",
+  "seo": {
+    "metatags": {
+      "tag1": "1"
+    }
+  },
+  "variables": {
+    "Bold": "**bold**"
+  }
 }
